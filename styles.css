@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilos de navegación */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos de las secciones */
+#presentacion {
+    background-color: #FFEB3B; /* Amarillo claro */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#cursos {
+    background-color: #8BC34A; /* Verde claro */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#hobbies {
+    background-color: #00BCD4; /* Azul claro */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#contacto {
+    background-color: #FFC107; /* Amarillo anaranjado */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Enlaces */
+a {
+    color: #4CAF50;
+}
+
+a:hover {
+    color: #45a049;
+}
